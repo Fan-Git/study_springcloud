@@ -1,0 +1,11 @@
+# Project exclude paths
+/api-feign/target/
+/common/target/
+/eureka-server1/target/
+/eureka-server2/target/
+/naicha_app/target/
+/naicha_goods_service1/target/
+/naicha_goods_service2/target/
+/naicha_system/target/
+/naicha_system_general/target/
+/zuul/target/

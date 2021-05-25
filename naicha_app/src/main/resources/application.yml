@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev   # dev:开发环境 prod:生产环境
+
+  application:
+    name: naicha-app-service
+
+server:
+  port: 8001

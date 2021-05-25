@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-feign/api-feign.iml" filepath="$PROJECT_DIR$/api-feign/api-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server1/eureka-server1.iml" filepath="$PROJECT_DIR$/eureka-server1/eureka-server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server2/eureka-server2.iml" filepath="$PROJECT_DIR$/eureka-server2/eureka-server2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naicha_app/naicha_app.iml" filepath="$PROJECT_DIR$/naicha_app/naicha_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naicha_goods_service1/naicha_goods_service1.iml" filepath="$PROJECT_DIR$/naicha_goods_service1/naicha_goods_service1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naicha_goods_service2/naicha_goods_service2.iml" filepath="$PROJECT_DIR$/naicha_goods_service2/naicha_goods_service2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naicha_springcloud.iml" filepath="$PROJECT_DIR$/naicha_springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naicha_system/naicha_system.iml" filepath="$PROJECT_DIR$/naicha_system/naicha_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naicha_system_general/naicha_system_general.iml" filepath="$PROJECT_DIR$/naicha_system_general/naicha_system_general.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>

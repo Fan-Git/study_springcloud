@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="naicha_system_general" />
+        <module name="zuul" />
+        <module name="common" />
+        <module name="api-feign" />
+        <module name="eureka-server2" />
+        <module name="eureka-server1" />
+        <module name="naicha_system" />
+        <module name="naicha_goods_service1" />
+        <module name="naicha_goods_service2" />
+        <module name="naicha_app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-feign" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="eureka-server1" target="1.8" />
+      <module name="eureka-server2" target="1.8" />
+      <module name="naicha_app" target="1.8" />
+      <module name="naicha_goods_api" target="1.8" />
+      <module name="naicha_goods_service1" target="1.8" />
+      <module name="naicha_goods_service2" target="1.8" />
+      <module name="naicha_springcloud" target="1.8" />
+      <module name="naicha_system" target="1.8" />
+      <module name="naicha_system_general" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-feign" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="eureka-server1" options="-parameters" />
+      <module name="eureka-server2" options="-parameters" />
+      <module name="naicha_app" options="-parameters" />
+      <module name="naicha_goods_api" options="-parameters" />
+      <module name="naicha_goods_service1" options="-parameters" />
+      <module name="naicha_goods_service2" options="-parameters" />
+      <module name="naicha_system" options="-parameters" />
+      <module name="naicha_system_general" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

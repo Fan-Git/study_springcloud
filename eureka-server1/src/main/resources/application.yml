@@ -1,0 +1,31 @@
+eureka:
+  instance:
+    hostname: peer1
+    # 设置使用IP
+#    prefer-ip-address: true #自动获取ip地址注册到eureka
+#    ip-address: ${eureka.instance.hostname}
+
+  client:
+    #false表示不像客户中心注册自己
+    register-with-eureka: false
+    #false表示自己就是客户中心，我得 职责就是维护服务实例，并不需要去检索服务
+    fetch-registry: false
+    service-url:
+      defaultZone: http://peer2:7002/eureka/
+# 日志配置
+logging:
+  level:
+    root: info
+    com.fan: trace
+  # 日志的路径，不指定路径在当前项目下生成spring.log日志
+  path: D:/log/naicha/${spring.application.name}
+  file:
+    max-size: 10MB  # 日志归档的最大大小, 到了该大小就压缩打包
+    max-history: 10 # 最多保存日志归档文件的数量
+
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 7001  #eureka的端口

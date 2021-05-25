@@ -1,0 +1,22 @@
+eureka:
+  instance:
+    hostname: peer2
+    # 设置使用IP
+#    prefer-ip-address: true #自动获取ip地址注册到eureka
+#    ip-address: ${eureka.instance.hostname}
+
+  client:
+    #false表示不像客户中心注册自己
+    register-with-eureka: false
+    #false表示自己就是客户中心，我得 职责就是维护服务实例，并不需要去检索服务
+    fetch-registry: false
+    service-url:
+      #default-zone 不能用但调的同一个方法
+      defaultZone: http://peer1:7001/eureka/
+
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 7002 #eureka的端口
